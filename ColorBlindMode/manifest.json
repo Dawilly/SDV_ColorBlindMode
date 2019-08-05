@@ -1,0 +1,9 @@
+﻿{
+  "Name": "ColorBlindMode",
+  "Author": "SgtPickles",
+  "Version": "1.0.0",
+  "Description": "Filters graphics and assets for people with color blindness.",
+  "UniqueID": "SgtPickles.ColorBlindMode",
+  "EntryDll": "ColorBlindMode.dll",
+  "MinimumApiVersion": "3.0"
+}
