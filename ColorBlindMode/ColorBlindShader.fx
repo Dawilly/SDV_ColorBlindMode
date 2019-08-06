@@ -95,11 +95,11 @@ float4 PixelShaderFunction(VertexShaderOutput input) : COLOR0
 	float4 outputColor = color;
 
 	if (colorBlindFilter == PROTANOPIA) {
-		outputColor = ApplyProtanopia(ProtanopiaFilter(outputColor));
+		outputColor = ApplyProtanopia(outputColor);
 	} else if (colorBlindFilter == DEUTERANOPIA) {
-		outputColor = ApplyDeuteranopia(DeuteranopiaFilter(outputColor));
+		outputColor = ApplyDeuteranopia(outputColor);
 	} else if (colorBlindFilter == TRITANOPIA) {
-		outputColor = ApplyTritanopia(TritanopiaFilter(outputColor));
+		outputColor = ApplyTritanopia(outputColor);
 	}
 
     return outputColor;

@@ -37,5 +37,11 @@ namespace ColorBlindMode {
 
         /// <summary>A stardrop icon.</summary>
         public static readonly Rectangle Stardrop = new Rectangle(346, 392, 8, 8);
+
+        public static readonly Rectangle SilverStar = new Rectangle(338, 400, 8, 8);
+
+        public static readonly Rectangle GoldStar = new Rectangle(346, 400, 8, 8);
+
+        public static readonly Rectangle IridiumStar = new Rectangle(346, 392, 8, 8);
     }
 }
